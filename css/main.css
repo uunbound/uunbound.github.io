@@ -1,14 +1,14 @@
 body {
-	background-color: #cbd5de;
-	background-attachment: fixed;
+  background-color: #cbd5de;
+  background-attachment: fixed;
   background: url("../img/bg.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-	margin-top: 50px;
-	margin-bottom: 50px;
-	color: #ffffff;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: #ffffff;
 }
 
 @media only screen and (max-width: 767px) {
@@ -18,42 +18,41 @@ body {
 }
 
 .container {
-	text-align: center;
+  text-align: center;
 }
 
 .container h1 {
-	font-family: monaco, Consolas, 'Lucida Console', monospace;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 500;
-	line-height: 50px;
+  font-family: monaco, Consolas, 'Lucida Console', monospace;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 50px;
 }
 
 .row p {
-	font-family: monaco, Consolas, 'Lucida Console', monospace;
-	font-style: normal;
-	font-variant: normal;
+  font-family: monaco, Consolas, 'Lucida Console', monospace;
+  font-style: normal;
+  font-variant: normal;
 }
 
-
 nav {
-	color: rgba(255, 255, 255, 0.5);
-	text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
 }
 
 nav a {
-	color: inherit;
+  color: inherit;
 }
 
 nav a:hover {
-	color: #ffffff !important;
-	text-decoration: none;
+  color: #ffffff !important;
+  text-decoration: none;
 }
 
 nav .social {
-	font-size: 30px;
+  font-size: 30px;
 }
 
 .copyright {
-	font-size: 14px;
+  font-size: 14px;
 }
