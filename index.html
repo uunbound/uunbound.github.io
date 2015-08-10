@@ -42,15 +42,15 @@
 	<nav class="navbar navbar-fixed-bottom">
 		<div class="container">
 			<ul class="list-inline social">
-				<li><a href="https://twitter.com/uunbound"><i class="fa fa-twitter fa-2"></i></a></li>
+				<li><a id="twitter" href="https://twitter.com/uunbound"><i class="fa fa-twitter fa-2"></i></a></li>
 				<li>
-					<a href="https://nl.linkedin.com/in/peymanshojaei" class="fa fa-linkedin fa-2"></a>
+					<a id="linkedin" href="https://nl.linkedin.com/in/peymanshojaei" class="fa fa-linkedin fa-2"></a>
 				</li>
 				<li>
-					<a href="https://github.com/uunbound" class="fa fa-github fa-2"></a>
+					<a id="github" href="https://github.com/uunbound" class="fa fa-github fa-2"></a>
 				</li>
 				<li>
-					<a href="https://instagram.com/uunbound" class="fa fa-instagram fa-2"></a>
+					<a id="instagram" href="https://instagram.com/uunbound" class="fa fa-instagram fa-2"></a>
 				</li>
 			</ul>
 			<ul class="list-inline copyright">
@@ -76,7 +76,10 @@
 			$(".aboutme").typed({
 				strings: ["I am a software engineer, pythonista, and starter based in Amsterdam. ^1000 An innovation enthusiast, casual stock trader, and passionate about photography."],
 				typeSpeed: 30,
-        showCursor: false
+				showCursor: false
+			});
+			$(".social a").click(function() {
+				ga('send', 'event', 'button', 'click', 'social buttons', this.id);
 			});
 		});
 	</script>
