@@ -1,4 +1,6 @@
 body {
+  height: 100%;
+  overflow: hidden;
   background-color: #cbd5de;
   background-attachment: fixed;
   background: url("../img/bg.jpg") no-repeat center center fixed;
